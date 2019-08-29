@@ -18,7 +18,7 @@ require 'core/connection.php';
 <?php require "core/route.php";?>
 
 
-
+<!---->
 <!-- Footer -->
 <?php include 'templates/nav_footer.php';?>
 <?php include 'templates/footer.php';?>

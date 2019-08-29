@@ -1,0 +1,64 @@
+/* Header */
+.color {
+    box-sizing: content-box;
+    background-color: #343a40;
+    color: #ecffff;
+}
+
+.bg-purple {
+    background-color: #6f42c1;
+    color: #ecffff;
+}
+
+/* Content */
+#content {
+    flex-grow: 1;
+}
+
+/* Content -> Answers */
+#answers p * {
+    min-width: 13em;
+}
+
+/* Footer */
+html, body{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.jq-rand-word:before{
+    content: "";
+    position: relative;
+
+}
+.jq-answer:after{
+    content: "\25B2";
+    position: relative;
+    top: -33px;
+    right: 55px;
+    font-size: 30px;
+}
+.jq-answer-wrap{
+    position: relative;
+    top: -50px;
+}
+.jq-answer-wrap:before{
+    content: "\25B2";
+    position: relative;
+    top: 58px;
+    right: -70px;
+    font-size: 30px;
+}
+.jq-answer:before {
+    content: "";
+    position: relative;
+    top: 98px;
+    left: 70px;
+    background-image: url("/assets/images/devil.png");
+    display: block;
+    background-size: 50px 40px;
+    width: 50px;
+    height: 40px;
+}
